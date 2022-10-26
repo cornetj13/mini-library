@@ -14,9 +14,9 @@ fetch("/api/books")
 .then(data => {
   console.log(data);
   data.forEach(book => {
-    const newLi = document.createElement('li');
-    newLi.textcontent = book.title;
-    booksUl.append(newLi);
+    const bookLi = document.createElement("li");
+    bookLi.innerHTML=`<strong>${book.id}.</strong> <em>${book.title}</em> by ${book.author}`;
+    booksUl.append(bookLi);
   });
 }).catch((error) => {
   console.error('Error:', error);
