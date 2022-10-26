@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "title": "101 Manatee Jokes",
+        "author": "Joe"
+    },
+    {
+        "id": "2",
+        "title": "Game of Thrones",
+        "author": "G.R.R.M"
+    },
+    {
+        "id": "3",
+        "title": "House of Dragons",
+        "author": "G.R.R.M"
+    },
+    {
+        "id": 4,
+        "title": "The Fellowship of the Ring",
+        "author": "JRRT"
+    }
+]
